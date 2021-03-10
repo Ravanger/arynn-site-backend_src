@@ -2,7 +2,7 @@
   "name": "arynn-site-backend-src",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Strapi backend for Arynn's website and store",
   "scripts": {
     "dev": "strapi develop",
     "start": "strapi start",
@@ -26,7 +26,9 @@
     "strapi-utils": "3.5.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Boris Rossovsky",
+    "email": "contact@BorisR.dev",
+    "url": "https://www.borisr.dev"
   },
   "strapi": {
     "uuid": "70a26021-bf2c-42c1-9f67-70cbac36380c"
