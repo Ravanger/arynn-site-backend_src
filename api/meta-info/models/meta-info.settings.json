@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "meta_infos",
+  "info": {
+    "name": "Meta Info",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Socials_Facebook": {
+      "type": "string",
+      "default": "https://www.facebook.com/"
+    },
+    "Socials_Instagram": {
+      "type": "string",
+      "default": "https://www.instagram.com/"
+    },
+    "Socials_Twitter": {
+      "type": "string",
+      "default": "https://twitter.com/"
+    },
+    "Socials_Patreon": {
+      "type": "string",
+      "default": "https://www.patreon.com/"
+    },
+    "Socials_Email": {
+      "type": "email",
+      "default": "arynn@hotmail.ca"
+    },
+    "Description_Home_Page": {
+      "type": "text",
+      "required": true,
+      "default": "Arynn's home page"
+    },
+    "Description_Art_Page": {
+      "type": "text",
+      "default": "Arynn's art",
+      "required": true
+    },
+    "Description_Shop_Page": {
+      "type": "text",
+      "default": "Arynn's Shop",
+      "required": true
+    },
+    "Description_Connect_Page": {
+      "type": "text",
+      "default": "Connect with Arynn",
+      "required": true
+    }
+  }
+}

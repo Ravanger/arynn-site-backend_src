@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/arts",
-      "handler": "art.find",
+      "path": "/shop-items",
+      "handler": "shop-items.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/arts/count",
-      "handler": "art.count",
+      "path": "/shop-items/count",
+      "handler": "shop-items.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/arts/:id",
-      "handler": "art.findOne",
+      "path": "/shop-items/:id",
+      "handler": "shop-items.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/arts",
-      "handler": "art.create",
+      "path": "/shop-items",
+      "handler": "shop-items.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/arts/:id",
-      "handler": "art.update",
+      "path": "/shop-items/:id",
+      "handler": "shop-items.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/arts/:id",
-      "handler": "art.delete",
+      "path": "/shop-items/:id",
+      "handler": "shop-items.delete",
       "config": {
         "policies": []
       }

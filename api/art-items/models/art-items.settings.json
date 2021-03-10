@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "shops",
+  "collectionName": "art_items",
   "info": {
-    "name": "Shop",
+    "name": "Art Items",
     "description": ""
   },
   "options": {
@@ -16,7 +16,7 @@
       "required": true
     },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
@@ -24,24 +24,22 @@
       "plugin": "upload",
       "required": true
     },
-    "price": {
-      "type": "decimal",
+    "description": {
+      "type": "text",
       "required": true
     },
     "type": {
       "type": "enumeration",
       "enum": [
-        "prints",
-        "stickers",
-        "custom",
-        "artwork",
-        "originals"
+        "paintings",
+        "comics",
+        "digital_art",
+        "design"
       ],
       "required": true
     },
-    "description": {
-      "type": "text",
-      "required": true
+    "shop_item": {
+      "model": "shop-items"
     }
   }
 }
