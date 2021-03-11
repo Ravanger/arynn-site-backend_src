@@ -5,4 +5,4 @@ node_modules
 build
 .tmp
 public
-.strapi-updater.json
+.strapi-updater.json*
