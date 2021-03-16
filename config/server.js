@@ -7,5 +7,3 @@ module.exports = ({ env }) => ({
     },
   },
 });
-
-myUndefinedFunction();
