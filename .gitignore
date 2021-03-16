@@ -6,3 +6,4 @@ build
 .tmp
 public
 .strapi-updater.json*
+.env
