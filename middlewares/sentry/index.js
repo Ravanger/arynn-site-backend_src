@@ -9,8 +9,6 @@ Sentry.init({
   environment: strapi.config.environment,
 });
 
-myUndefinedFunction();
-
 module.exports = (strapi) => {
   return {
     initialize() {
