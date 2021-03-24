@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "shop_items",
   "info": {
-    "name": "Shop Items"
+    "name": "Shop Items",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -37,7 +38,6 @@
         "prints",
         "stickers",
         "custom",
-        "artwork",
         "originals"
       ]
     }
