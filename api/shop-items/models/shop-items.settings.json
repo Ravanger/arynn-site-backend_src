@@ -20,8 +20,9 @@
       "required": true
     },
     "price": {
-      "type": "decimal",
-      "required": true
+      "type": "integer",
+      "required": true,
+      "min": 0
     },
     "images": {
       "collection": "file",
