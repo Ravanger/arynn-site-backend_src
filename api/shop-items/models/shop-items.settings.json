@@ -39,9 +39,11 @@
       "enum": [
         "prints",
         "stickers",
+        "goods",
         "custom",
         "originals"
-      ]
+      ],
+      "required": true
     },
     "maxquantity": {
       "type": "integer",
