@@ -17,7 +17,7 @@
     },
     "description": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "price": {
       "type": "integer",
@@ -31,7 +31,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     },
     "type": {
@@ -41,7 +41,10 @@
         "stickers",
         "goods",
         "custom",
-        "originals"
+        "originals",
+        "custom_addon",
+        "custom_type",
+        "custom_numberofpeople"
       ],
       "required": true
     },
