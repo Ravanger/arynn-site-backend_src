@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_custom_custom_numberofpeople",
+  "info": {
+    "name": "custom_numberofpeople",
+    "icon": "comments"
+  },
+  "options": {},
+  "attributes": {
+    "custom_numberofpeople_name": {
+      "type": "string",
+      "required": true
+    },
+    "custom_numberofpeople_price": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

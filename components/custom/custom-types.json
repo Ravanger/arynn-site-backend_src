@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_custom_custom_types",
+  "info": {
+    "name": "custom_types",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "custom_types_name": {
+      "type": "string",
+      "required": true
+    },
+    "custom_types_price": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    }
+  }
+}

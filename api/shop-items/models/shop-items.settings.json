@@ -41,10 +41,7 @@
         "stickers",
         "goods",
         "custom",
-        "originals",
-        "custom_addon",
-        "custom_type",
-        "custom_numberofpeople"
+        "originals"
       ],
       "required": true
     },
@@ -56,6 +53,21 @@
     "is_sold": {
       "type": "boolean",
       "default": false
+    },
+    "custom_types": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.custom-types"
+    },
+    "custom_addons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.custom-addons"
+    },
+    "custom_numberofpeople": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.custom-numberofpeople"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_custom_custom_addons",
+  "info": {
+    "name": "custom_addons",
+    "icon": "comment-medical"
+  },
+  "options": {},
+  "attributes": {
+    "custom_addons_name": {
+      "type": "string",
+      "required": true
+    },
+    "custom_addons_price": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    }
+  }
+}
