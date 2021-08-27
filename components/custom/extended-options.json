@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_custom_extended_options",
+  "info": {
+    "name": "extended_options",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "extended_option_name": {
+      "type": "string",
+      "required": true
+    },
+    "extended_option_price": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
