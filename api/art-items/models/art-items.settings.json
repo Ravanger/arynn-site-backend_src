@@ -30,7 +30,6 @@
     "type": {
       "type": "enumeration",
       "enum": [
-        "paintings",
         "comics",
         "digital_art",
         "design",
